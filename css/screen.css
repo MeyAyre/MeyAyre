@@ -1,0 +1,65 @@
+/* Mobile*/
+html, body{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+section{
+  text-align: center;
+  margin: 5px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  color: black;
+  font-size: 50px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+h2{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+
+.main-content{
+  width: 100%;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+#main-banner{
+  flex-direction: column;
+}
+.banner-item{
+  font-size: 30px;
+  margin: 10px;
+}
+
+/*Tablet Sizing*/
+@media (min-width: 550px){
+  h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+  }
+  h2{
+    font-size: 70px;
+  }
+  p{
+    font-size: 35px;
+  }
+}
+
+/*Desktop and Laptop Sizing*/
+@media (min-width: 1000px){
+  #main-banner{
+    flex-direction: row;
+  }
+}
