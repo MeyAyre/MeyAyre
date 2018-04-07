@@ -1,0 +1,18 @@
+body{
+  background-color: #cfeaeb;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  background-color: #e84764;
+}
+
+nav{
+  background-color: #ea84ac;
+}
+
+#main-banner{
+  font-family: 'Baloo', cursive;
+}
+.main-content{
+  background-color: #f9d8d5;
+}

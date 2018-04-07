@@ -1,5 +1,7 @@
 @import url('screen.css');
 @import "layout.css";
+@import "coloring.css";
+@import "menu.css";
 @import "hamburger.css";
 @import url('https://fonts.googleapis.com/css?family=Baloo');
 @import url('https://fonts.googleapis.com/css?family=Lato');

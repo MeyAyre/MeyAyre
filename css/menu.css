@@ -1,0 +1,25 @@
+/*For the non-mobile menu*/
+nav{
+  width: 75%;
+  margin: 0 auto;
+  padding: 2%;
+  text-align: left;
+}
+
+#navigation{
+  width: 100%;
+}
+.general-nav{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav-item{
+  text-align: center;
+  width: 25%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}

@@ -1,13 +1,18 @@
 
 @media (max-width: 550px){
 
+/* This is going away once I get the hamburger and x icons.
+ * Once I have those icons, I'll just switch the icons in the
+ * JavaScript when the menu is opened or closed. It'll have the
+ * same id on it
+ */
   #hamburger{
     display: block;
     position: absolute;
     width: 25px;
     height: 25px;
     background-color: purple;
-    margin-left: 93%;
+    margin-left: 90%;
     z-index: 1;
     cursor: pointer;
   }
@@ -18,11 +23,12 @@
   #mobile-nav{
     display: none;
     position: absolute;
-    width: 100%;
+    width: 90%;
     z-index: 1;
     text-align: left;
     font-size: 30px;
-    margin-left: -5px;
+    margin-left: 2.5%;
+    top: 25px;
     padding-bottom: 5px;
     padding-top: 5px;
     border: black thick solid;
@@ -36,7 +42,6 @@
     list-style-type: none;
   }
   #port-sub{
-    list-style-position: inside;
     color: black;
   }
   #port-sub > .portfolio-sub > a{

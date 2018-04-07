@@ -7,26 +7,26 @@ html, body{
 body{
   font-family: sans-serif;
 }
+
 section{
   text-align: center;
   margin: 5px;
 }
 
-h1{
-  text-align: center;
-  font-family: 'Baloo', cursive;
+#home_link{
   color: black;
-  font-size: 50px;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+h1{
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  font-size: 50px;
+}
 
-}
-h2{
-  font-size: 30px;
-}
 p{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .main-content{
@@ -42,6 +42,11 @@ p{
   font-size: 30px;
   margin: 10px;
 }
+.banner-item-text{
+  border: none;
+  font-size: 20px;
+  font-weight: 100;
+}
 
 /*Tablet Sizing*/
 @media (min-width: 550px){
@@ -52,8 +57,13 @@ p{
   h2{
     font-size: 70px;
   }
+  .banner-item-text{
+    border: none;
+    font-size: 30px;
+    font-weight: 100;
+  }
   p{
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 
@@ -62,4 +72,5 @@ p{
   #main-banner{
     flex-direction: row;
   }
+
 }
