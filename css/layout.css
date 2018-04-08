@@ -23,6 +23,9 @@ header{
 .main-content{
   padding: 25px;
 }
+.body-text{
+  text-align: left;
+}
 .container{
   display: flex;
 }

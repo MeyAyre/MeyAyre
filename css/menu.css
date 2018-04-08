@@ -2,7 +2,7 @@
 nav{
   width: 75%;
   margin: 0 auto;
-  padding: 2%;
+  padding: 1.5%;
   text-align: left;
 }
 
@@ -17,8 +17,8 @@ nav{
   text-align: center;
   width: 25%;
   color: white;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: bolder;
 }
 a {
   text-decoration: none;

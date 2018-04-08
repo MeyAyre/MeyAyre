@@ -1,0 +1,22 @@
+/* Mobile */
+.tabs {
+  padding-top: 2%;
+  background-color: white;
+  border: #d2d4d8 thin solid;
+}
+.sect{
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.tab-link{
+  background-color: inherit;
+  transition: 0.3s;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: #d2d4d8 1px solid;
+  text-align: left;
+  padding: 3%;
+  font-weight: 500;
+}

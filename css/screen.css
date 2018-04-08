@@ -22,7 +22,8 @@ section{
 h1{
   text-align: center;
   font-family: 'Baloo', cursive;
-  font-size: 50px;
+  font-size: 45px;
+  line-height: 20%;
 }
 
 p{
@@ -34,7 +35,16 @@ p{
   word-wrap: break-word;
   margin: 0 auto;
 }
-
+.body-text{
+  line-height: 200%;
+}
+.body-content{
+  border-radius: 5%;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 5%;
+}
 #main-banner{
   flex-direction: column;
 }
@@ -61,6 +71,9 @@ p{
     border: none;
     font-size: 30px;
     font-weight: 100;
+  }
+  .body-content{
+    width: 90%;
   }
   p{
     font-size: 20px;
