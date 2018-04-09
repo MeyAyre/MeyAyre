@@ -18,6 +18,11 @@ section{
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  border: thick black solid;
+  background-color: pink;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-top: none;
 }
 h1{
   text-align: center;
@@ -49,6 +54,7 @@ p{
   flex-direction: column;
 }
 .banner-item{
+  padding: 2%;
   font-size: 1em;
   margin: 10px;
 }

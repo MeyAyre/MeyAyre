@@ -1,81 +1,99 @@
 /* Desktop */
+@media (min-width: 550px){
+  h3{
+    font-size: 20px;
+  }
+  ul{
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  li{
+    line-height: 200%;
+    font-size: 15px;
+  }
+  .tabs {
+    display: inline;
+    background-color: white;
+    border: #d2d4d8 thin solid;
+    width: 25%;
+    height: 50%;
+    vertical-align: top;
+  }
+  .sect{
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .r-row{
+    width: 25%;
+  }
+  .r-row p{
+    text-align: center;
+    font-size: 15px;
+  }
+  .tab-link{
+    background-color: inherit;
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: #d2d4d8 1px solid;
+    text-align: center;
+    padding: 3%;
+    font-weight: 500;
+  }
+  .tab-content{
+    display: block;
+  }
+  /* Change background color of buttons on hover */
+  .tabs button:hover {
+      background-color: #ddd;
+  }
+  .tabs button.active {
+      background-color: #ccc;
+  }
 
-h3{
-  font-size: 20px;
-}
-ul{
-  width: 75%;
-  margin: 0 auto;
-  text-align: left;
-}
-li{
-  line-height: 200%;
-  font-size: 15px;
-}
-.tabs {
-  display: inline;
-  background-color: white;
-  border: #d2d4d8 thin solid;
-  width: 25%;
-  height: 50%;
-  vertical-align: top;
-}
-.sect{
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-.r-row{
-  width: 25%;
-}
-.r-row p{
-  text-align: center;
-  font-size: 15px;
-}
-.tab-link{
-  background-color: inherit;
-  transition: 0.3s;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  border-bottom: #d2d4d8 1px solid;
-  text-align: center;
-  padding: 3%;
-  font-weight: 500;
-}
-.tab-content{
-  display: block;
-}
-/* Change background color of buttons on hover */
-.tabs button:hover {
-    background-color: #ddd;
-} 
-.tabs button.active {
-    background-color: #ccc;
-}
+  .resume-content h2{
+    color: #2079c7;
+  }
+  .resume-content{
+    display: none;
+    vertical-align: top;
+    margin-left: 5%;
+    background-color: white;
+    width: 60%;
+  }
 
-.resume-content h2{
-  color: #2079c7;
+  #awards, #organizations{
+    width: 95%;
+    margin: 0 auto;
+    border: thick solid #3aa3ff;
+  }
+  #organizations > .r-row{
+    width: 50%;
+  }
+  #organizations > .r-row > div > ul > li{
+    list-style: none;
+    text-align: center;
+  }
+  .mobile-dropdown{
+    display: none;
+  }
 }
-.resume-content{
-  display: none;
-  vertical-align: top;
-  margin-left: 5%;
-  background-color: white;
-  width: 60%;
-}
-#r-education{
-  display: block;
-}
-#awards, #organizations{
-  width: 95%;
-  margin: 0 auto;
-  border: thick solid #3aa3ff;
-}
-#organizations > .r-row{
-  width: 50%;
-}
-#organizations > .r-row > div > ul > li{
-  list-style: none;
-  text-align: center;
+/*Mobile*/
+@media (max-width: 1000px){
+  .mobile-dropdown{
+    display: block;
+    width: 100%;
+  }
+  select{
+    width: 100%;
+  }
+  select > option{
+    width: 75%;
+  }
+  .tabs{
+    display: none;
+  }
 }

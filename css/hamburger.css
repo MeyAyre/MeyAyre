@@ -19,6 +19,7 @@
   }
 
   #mobile-nav{
+    background-color: pink;
     display: none;
     position: absolute;
     width: 90%;

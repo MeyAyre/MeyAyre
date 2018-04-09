@@ -1,35 +1,44 @@
 /*For the non-mobile menu*/
 nav{
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   padding: 1.5%;
   text-align: left;
 }
 
-#navigation{
-  width: 100%;
-}
 .general-nav{
   flex-direction: row;
   justify-content: space-evenly;
 }
+#navigation{
+  width: 100%;
+}
 .nav-item{
   text-align: center;
-  width: 25%;
-  color: white;
+  width: 15%;
+  color: black;
   font-size: 25px;
   font-weight: bolder;
+  border: thick black solid;
+}
+.nav-item:hover{
+  background-color: grey;
 }
 a {
   text-decoration: none;
 }
 
+/*For tablets*/
 @media (max-width: 1000px){
   h1{
     line-height: 30%;
   }
+  .general-nav{
+    align-items: flex-end;
+  }
   .nav-item{
-    text-align: left;
+    width: 25%;
+    text-align: center;
     font-size: 35 px;
   }
 }
