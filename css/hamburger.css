@@ -9,10 +9,8 @@
   #hamburger{
     display: block;
     position: absolute;
-    width: 25px;
-    height: 25px;
-    background-color: purple;
-    margin-left: 90%;
+    margin-top: 3%;
+    margin-left: 88%;
     z-index: 1;
     cursor: pointer;
   }
@@ -53,6 +51,9 @@
 }
 /*Hide the mobile menu on non-mobile device*/
 @media (min-width: 550px){
+  #hamburger{
+    display: none;
+  }
   #mobile-nav{
     display: none;
   }

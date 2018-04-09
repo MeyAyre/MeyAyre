@@ -23,3 +23,13 @@ nav{
 a {
   text-decoration: none;
 }
+
+@media (max-width: 1000px){
+  h1{
+    line-height: 30%;
+  }
+  .nav-item{
+    text-align: left;
+    font-size: 35 px;
+  }
+}

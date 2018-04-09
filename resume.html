@@ -4,13 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
+    <script src="Scripts/resume.js"></script>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/resume.css">
     <title>Mei'lani Eyre, Web Developer, CS Educator, Student</title>
   </head>
   <body>
     <!-- Header -->
     <header>
       <div id="hamburger">
+        <img
+        srcset="Images/hamburger-icon-sm.png 34w,
+                Images/hamburger-icon-md.png 46w"
+        sizes="(max-width: 550px) 34px,
+               (max-width: 1000px) 46px"
+        src="Images/hamburger-icon-md .png" aria-label="Menu">
       </div>
       <h1><a id="home_link" href="index.html">Mei'lani Eyre</a></h1>
       <!-- Main Menu -->
@@ -24,11 +32,9 @@
       </div>
     </header>
 
-
-
     <!-- Mobile Menu -->
     <div>
-      <nav class="container" id="mobile-nav">
+      <nav class="container" id="mobile-nav" role="menu">
         <ul>
           <li class="styleBeGone"><a class="m-nav-item" href="index.html">Home</a></li>
           <li class="styleBeGone"><a class="m-nav-item" href="resume.html">Resume</a></li>
@@ -49,42 +55,205 @@
         </ul>
       </nav>
     </div>
+
+
     <!--Main Content-->
     <section>
       <h2>Resume</h2>
-      <div class="tabs">
-        <div class="container sect">
-          <button class="tab-link" onclick="" type="button">Experience</button>
-          <button class="tab-link" onclick="" type="button">Education</button>
-          <button class="tab-link" onclick="" type="button">Skills</button>
-        </div>
-        <div class="container sect">
-          <button class="tab-link" onclick="" type="button">Projects</button>
-          <button class="tab-link" onclick="" type="button">Involvement</button>
-          <button class="tab-link" onclick="" type="button">Show All</button>
-        </div>
-      </div>
-      <div class="main-content">
-        <section class="body-content">
-          <div id="r-experience" class="tabcontent">
-            <h2>Experience</h2>
+    </section>
+      <!-- Banner -->
+    <section>
+      <div class="main-content container touch-bottom">
+        <div class="tabs">
+          <div class="container sect">
+            <button class="tab-link" data-tab="tab1" type="button">Experience</button>
+            <button class="tab-link" data-tab="tab2" type="button">Education</button>
+            <button class="tab-link" data-tab="tab3" type="button">Skills</button>
+            <button class="tab-link" data-tab="tab4" type="button">Projects</button>
+            <button class="tab-link" data-tab="tab5" type="button">Involvement</button>
+            <button class="tab-link" data-tab="tab6" type="button">Show All</button>
           </div>
+        </div>
+        <section class="resume-content">
+          <div id="r-experience" class="tabcontent">
+            <!--Education-->
+            <h2>Experience</h2>
+            <section>
+              <h3>Code.org, Seattle —Education and Engineering Intern</h3>
+              <h4>November  2016 - March 2017 | October 2017 - January 2018</h4>
+              <ul>
+                <li>Contributed improvements to the <a href="https://studio.code.org">studio.code.org</a> website including unit tests, new draggable blocks in App Lab, and bug patches.</li>
+                <li>Wrote Board Events, Making Music, and  Accelerometer lessons in unit 6 of CS Discoveries.</li>
+                <li>Wrote exemplars, lesson plans,  and documentation  for the CS Fundamentals, CS Discoveries, and CS Principles courses.</li>
+            </section>
+            <br>
+            <section>
+              <h3>Microsoft,  Redmond —Software Development C+E  High School Intern</h3>
+              <h4>June 2017 - August 2017</h4>
+              <ul>
+                <li>
+                  Conducted competitive analysis of sign up experiences between cloud services.
+                </li>
+                <li>
+                  Created unit  tests  with  Xpath and Selenium  validating  for accessibility errors.
+                </li>
+                <li>
+                  Implemented accessibility improvements on https://azure.microsoft.com that involved changes across the MVC.
+                </li>
+                <li>
+                  Worked on agile development team
+                </li>
+              </ul>
+            </section>
+            <br>
+            <section>
+              <h3>Girls Who Code, Seattle — Summer Immersion Program Alumni TA</h3>
+              <h4>June 2016 - August 2016</h4>
+              <ul>
+                <li>
+                  Assisted in teaching 20 high school girls an intro to  computer science.
+                </li>
+                <li>
+                  Led week-long section on web development.
+                </li>
+                <li>
+                  Independently taught  group of  students web applications  with Node.js and MongoDB .
+                </li>
+              </ul>
+            </section>
+          </div>
+          <!--Education-->
           <div id="r-education" class="tabcontent">
             <h2>Education</h2>
+            <section>
+              <h3>Cascadia College, Bothell, WA - BAS Mobile Application Programming</h3>
+              <h4>2018-2020| Applied and Awaiting Enrollment</h4>
+            </section>
+            <br>
+            <section>
+              <h3>Cascadia College, Bothell, WA — AAS-T Web Application Programming </h3>
+              <h4>2016 - 2018 |GPA:  3.90 | Graduating in Spring, 2018</h4>
+            </section>
           </div>
+          <!--Skills-->
           <div id="r-skills" class="tabcontent">
             <h2>Skills</h2>
+            <div class="container">
+              <div class="r-row">
+                <p>JavaScript</p>
+                <p>HTML5</p>
+                <p>CSS3</p>
+              </div>
+              <br>
+              <div class="r-row">
+                <p>Bootstrap</p>
+                <p>jQuery</p>
+                <p>Node.js</p>
+              </div>
+              <div class="r-row">
+                <p>Python</p>
+                <p>Accessible Design</p>
+                <p>Automated Testing</p>
+              </div>
+              <div class="r-row">
+                <p>MVC</p>
+                <p>ASP.NET</p>
+                <p>C#</p>
+              </div>
+            </div>
           </div>
+          <!--Projects-->
           <div id="r-projects" class="tabcontent">
             <h2>Projects</h2>
+            <section>
+              <h3> Every Girl Can Code 2 — Microsoft OneWeek Hackathon </h3>
+              <h4>2017 | Small Basic | 3rd Place in Women’s and Girl’s Category</h4>
+              <ul>
+                <li>
+                  Created curriculum in Small Basic to teach young girls core concepts in computer science and programming.
+                </li>
+              </ul>
+            </section>
           </div>
+          <!--Involvement-->
           <div id="r-involvement" class="tabcontent">
             <h2>Involvement</h2>
+            <section>
+              <h3>
+                Awards
+              </h3>
+              <div class="container" id="awards">
+                <div class="r-row">
+                  <strong><p>Quip</p></strong>
+                  <p>Diversity Scholarship Runner-Up</p>
+                  <p>2017</p>
+                </div>
+                <div class="r-row">
+                  <strong><p>NCWIT</p></strong>
+                  <p>National Award Honorable Mention</p>
+                  <p>2017</p>
+                </div>
+                <div class="r-row">
+                  <strong><p>NCWIT</p></strong>
+                  <p>Affiliate Award West Seattle</p>
+                  <p>2017</p>
+                </div>
+                <div class="r-row">
+                  <strong><p>NCWIT</p></strong>
+                  <p>Affiliate Award Eastern Washington</p>
+                  <p>2016</p>
+                </div>
+              </div>
+            </section>
+            <br>
+            <section>
+              <h3>Organizations</h3>
+              <div class="container" id="organizations">
+                <div class="r-row">
+                  <div>
+                    <strong><p>Girls Who Code</p></strong>
+                    <p>2015-Present</p>
+                    <ul>
+                      <li>SIP Alumni | 2015</li>
+                      <li>Club Alumni | 2015</li>
+                      <li>Club Instructor 2016-2018</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong><p>Girls Who Code</p></strong>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong><p>Girls Who Code</p></strong>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+                <br>
+                <div class="r-row">
+                  <div>
+                      <strong><p>King County Library System</p></strong>
+                      <p>2015-Present</p>
+                      <p></p>
+                      <p></p>
+                  </div>
+                  <div>
+                      <strong><p>Title</p></strong>
+                      <p></p>
+                      <p></p>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
-        </section>
       </div>
     </section>
-
-
   </body>
 </html>

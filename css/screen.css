@@ -5,7 +5,7 @@ html, body{
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section{
@@ -49,12 +49,12 @@ p{
   flex-direction: column;
 }
 .banner-item{
-  font-size: 30px;
+  font-size: 1em;
   margin: 10px;
 }
 .banner-item-text{
   border: none;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 100;
 }
 
@@ -65,25 +65,30 @@ p{
     letter-spacing: 5px;
   }
   h2{
-    font-size: 70px;
+    font-size: 4.375em;
   }
   .banner-item-text{
     border: none;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 100;
   }
   .body-content{
     width: 90%;
   }
+  h3{
+    font-size: 2.5em;
+  }
   p{
-    font-size: 20px;
+    font-size: 1.875em;
   }
 }
 
 /*Desktop and Laptop Sizing*/
-@media (min-width: 1000px){
+@media (min-width: 1200px){
   #main-banner{
     flex-direction: row;
   }
-
+  p{
+    font-size: 1em;
+  }
 }
