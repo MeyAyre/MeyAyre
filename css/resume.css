@@ -49,7 +49,7 @@ li{
 /* Change background color of buttons on hover */
 .tabs button:hover {
     background-color: #ddd;
-}
+} 
 .tabs button.active {
     background-color: #ccc;
 }
