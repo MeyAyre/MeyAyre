@@ -11,8 +11,16 @@
     <!-- Header -->
     <header>
       <div id="hamburger">
+        <img
+        srcset="Images/hamburger-icon-sm.png 34w,
+                Images/hamburger-icon-md.png 46w"
+        sizes="(max-width: 550px) 34px,
+               (max-width: 1000px) 46px"
+        src="Images/hamburger-icon-md .png" aria-label="Menu">
       </div>
+      <!-- Main Menu -->
       <h1><a id="home_link" href="index.html">Mei'lani Eyre</a></h1>
+      <br>
       <!-- Main Menu -->
       <div id="navigation">
         <nav class="general-nav container">
@@ -26,7 +34,7 @@
 
     <!-- Mobile Menu -->
     <div>
-      <nav class="container" id="mobile-nav">
+      <nav class="container" id="mobile-nav" role="menu">
         <ul>
           <li class="styleBeGone"><a class="m-nav-item" href="index.html">Home</a></li>
           <li class="styleBeGone"><a class="m-nav-item" href="resume.html">Resume</a></li>
@@ -49,11 +57,29 @@
     </div>
 
     <!--Banner-->
-    <section id="main-banner" class="container">
+    <section id="main-banner" class="container" role="banner">
       <div class="banner-item">
+        <img
+          srcset="Images/computer_icon-sm.png,
+                  Images/computer_icon-md.png 86w,
+                  Images/computer_icon-lg.png 100w"
+          sizes="(max-width: 550px) 75px,
+                 (max-width: 1000px) 86px
+                 (max-width: 1600px) 100px"
+          src="Images/computer_icon-md.png"
+          role="presentation">
         <h2 class="banner-item-text">Web Developer</h2>
       </div>
       <div class="banner-item">
+        <img
+          srcset="Images/ChildIcon-sm.png,
+                  Images/ChildIcon-md.png 82w,
+                  Images/ChildIcon-lg.png 100w"
+          sizes="(max-width: 550px) 75px,
+                 (max-width: 1000px) 82px
+                 (max-width: 1600px) 100px"
+          src="Images/ChildIcon-md.png"
+          role="presentation">
         <h2 class="banner-item-text">CS Educator</h2>
       </div>
       <div class="banner-item">
@@ -64,13 +90,31 @@
     <!-- Main Content -->
     <!--About Me-->
     <section class="main-content">
-      <h2>About Me</h2>
+      <h2>Hey,</h2>
       <h3>
-        Everything you've ever wanted to know and <em>more</em>
+        Here's everything you've ever wanted to know and <em>more</em>
       </h3>
-      <p>
-        deee
-      </p>
+      <div class="body-content">
+        <p>
+          I'm Mei.
+        </p>
+        <br>
+        <p class="body-text">
+          You may know me from Girls Who Code, a Code.org video, seen me
+            at a King County library, met me at Cascadia College, or just stumbled upon this site. Regardless,
+            you're in the right place.
+        </p>
+        <br>
+        <p class="body-text">
+          I'm a queer woman of color and student at Cascadia College. My specialties are accessible
+          /inclusive, responsive design, web development, and computer science education.
+          I've worked with a few companies in these disciplines, including
+          Girls Who Code, Code.org, and Microsoft.
+        </p>
+      </div>
     </section>
+    <!--Footer -->
+    <footer>
+    </footer>
   </body>
 </html>

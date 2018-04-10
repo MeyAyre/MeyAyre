@@ -1,13 +1,13 @@
 body{
   background-color: #cfeaeb;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 header{
-  background-color: #e84764;
+  background-color: #cfeaeb;
 }
 
 nav{
-  background-color: #ea84ac;
+  background-color: inherit;
 }
 
 #main-banner{
