@@ -58,7 +58,7 @@
     color: #2079c7;
   }
   .resume-content{
-    display: none;
+    display: block;
     vertical-align: top;
     margin-left: 5%;
     background-color: white;
@@ -83,6 +83,9 @@
 }
 /*Mobile*/
 @media (max-width: 1000px){
+  .resume-box{
+    flex-direction: column;
+  }
   .mobile-dropdown{
     display: block;
     width: 100%;
