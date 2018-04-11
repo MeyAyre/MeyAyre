@@ -38,6 +38,9 @@ a {
   .nav-item{
     width: 25%;
     text-align: center;
-    font-size: 35 px;
+    border-right: none;
+  }
+  #contactme{
+    border-right: thick black solid;
   }
 }

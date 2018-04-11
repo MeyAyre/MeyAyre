@@ -15,7 +15,7 @@
   font-size: 15px;
 }
 .resume-content h2{
-  color: #2079c7;
+    color: #4e2851;
 }
 .resume-content{
   display: block;
@@ -99,6 +99,7 @@
   }
 }
 
+
 @media (max-width: 1000px){
   .resume-box{
     flex-direction: column;
@@ -116,10 +117,13 @@
     width: 100%;
   }
   select{
+    padding: 3%;
     width: 100%;
+    font-size: 1.5em;
   }
-  select > option{
-    width: 75%;
+
+  h3{
+  font-size:  1.5em;
   }
   #tab-link{
     display: none;
