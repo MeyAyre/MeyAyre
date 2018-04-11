@@ -18,17 +18,19 @@ section{
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  border: thick black solid;
+}
+#heading-boarder{
+  margin: 0 auto;
+  width: 50%;
+  height: 90%;
+  line-height: 100%;
   background-color: #4e2851;
-  padding-left: 2%;
-  padding-right: 2%;
-  border-top: none;
+  border: thick black solid;
 }
 h1{
   text-align: center;
   font-family: 'Baloo', cursive;
   font-size: 45px;
-  line-height: 20%;
 }
 
 p{
@@ -67,7 +69,7 @@ p{
 /*Tablet Sizing*/
 @media (min-width: 550px){
   h1{
-    font-size: 100px;
+    font-size: 80px;
     letter-spacing: 5px;
   }
   h2{
@@ -91,6 +93,9 @@ p{
 
 /*Desktop and Laptop Sizing*/
 @media (min-width: 1200px){
+  #heading-boarder{
+    width: 50%;
+  }
   #main-banner{
     flex-direction: row;
   }

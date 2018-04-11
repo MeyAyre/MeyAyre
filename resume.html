@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
-    <script src="Scripts/resume.js"></script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/resume.css">
     <title>Mei'lani Eyre, Web Developer, CS Educator, Student</title>
@@ -21,7 +20,13 @@
         src="Images/hamburger-icon-md .png" aria-label="Menu">
       </div>
       <div>
-      <h1><a id="home_link" href="index.html">Mei'lani Eyre</a></h1>
+        <div id="heading-boarder">
+          <h1>
+            <a id="home_link" href="index.html">
+            Mei'lani Eyre
+            </a>
+          </h1>
+        </div>
       <br>
       <!-- Main Menu -->
       <div id="navigation">
@@ -37,7 +42,7 @@
     <!-- Mobile Menu -->
     <div>
       <nav class="container" id="mobile-nav" role="menu">
-        <ul>
+        <ul id="non-resume">
           <li class="styleBeGone"><a class="m-nav-item" href="index.html">Home</a></li>
           <li class="styleBeGone"><a class="m-nav-item" href="resume.html">Resume</a></li>
           <li class="styleBeGone">
@@ -98,7 +103,9 @@
               <h4>November  2016 - March 2017 | October 2017 - January 2018</h4>
               <ul>
                 <li>Contributed improvements to the <a href="https://studio.code.org">studio.code.org</a> website including unit tests, new draggable blocks in App Lab, and bug patches.</li>
+                <br>
                 <li>Wrote Board Events, Making Music, and  Accelerometer lessons in unit 6 of CS Discoveries.</li>
+                <br>
                 <li>Wrote exemplars, lesson plans,  and documentation  for the CS Fundamentals, CS Discoveries, and CS Principles courses.</li>
             </section>
             <br>
@@ -109,14 +116,13 @@
                 <li>
                   Conducted competitive analysis of sign up experiences between cloud services.
                 </li>
+                <br>
                 <li>
                   Created unit  tests  with  Xpath and Selenium  validating  for accessibility errors.
                 </li>
+                <br>
                 <li>
                   Implemented accessibility improvements on https://azure.microsoft.com that involved changes across the MVC.
-                </li>
-                <li>
-                  Worked on agile development team
                 </li>
               </ul>
             </section>
@@ -128,9 +134,11 @@
                 <li>
                   Assisted in teaching 20 high school girls an intro to  computer science.
                 </li>
+                <br>
                 <li>
                   Led week-long section on web development.
                 </li>
+                <br>
                 <li>
                   Independently taught  group of  students web applications  with Node.js and MongoDB .
                 </li>
@@ -151,29 +159,54 @@
             </section>
           </div>
           <!--Skills-->
+          <!--Desktop-view for Skills-->
           <div id="r-skills" class="tabcontent">
             <h2>Skills</h2>
-            <div class="container">
-              <div class="r-row">
+            <div id="pc-size-skills" class="container">
+              <div class="r-col">
                 <p>JavaScript</p>
                 <p>HTML5</p>
                 <p>CSS3</p>
               </div>
               <br>
-              <div class="r-row">
+              <div class="r-col">
                 <p>Bootstrap</p>
                 <p>jQuery</p>
                 <p>Node.js</p>
               </div>
-              <div class="r-row">
+              <div class="r-col">
                 <p>Python</p>
                 <p>Accessible Design</p>
                 <p>Automated Testing</p>
               </div>
-              <div class="r-row">
+              <div class="r-col">
                 <p>MVC</p>
                 <p>ASP.NET</p>
                 <p>C#</p>
+              </div>
+            </div>
+
+            <!--Mobile-view for Skills-->
+            <div id="mobile-size-skills" class="container">
+              <div class="r-row">
+                <p>JavaScript|
+                HTML5|
+                CSS3</p>
+              </div>
+              <div class="r-row">
+                <p>Bootstrap|
+                jQuery|
+                Node.js</p>
+              </div>
+              <div class="r-row">
+                <p>Python|
+                Accessible Design|
+                Automated Testing</p>
+              </div>
+              <div class="r-row">
+                <p>MVC|
+                ASP.NET|
+                C#</p>
               </div>
             </div>
           </div>
@@ -198,29 +231,61 @@
                 Awards
               </h3>
               <div class="container" id="awards">
-                <div class="r-row">
+                <div class="r-col">
                   <strong><p>Quip</p></strong>
                   <p>Diversity Scholarship Runner-Up</p>
                   <p>2017</p>
                 </div>
-                <div class="r-row">
+                <div class="r-col">
                   <strong><p>NCWIT</p></strong>
                   <p>National Award Honorable Mention</p>
                   <p>2017</p>
                 </div>
-                <div class="r-row">
+                <div class="r-col">
                   <strong><p>NCWIT</p></strong>
                   <p>Affiliate Award West Seattle</p>
                   <p>2017</p>
                 </div>
-                <div class="r-row">
+                <div class="r-col">
                   <strong><p>NCWIT</p></strong>
                   <p>Affiliate Award Eastern Washington</p>
                   <p>2016</p>
                 </div>
               </div>
+
+              <!--Mobile-view for Awards -->
+              <div class="container" id="mobile-awards">
+                <div>
+                  <div class="r-row">
+                    <strong><p>Quip</p></strong>
+                    <p>Diversity Scholarship Runner-Up</p>
+                    <p>2017</p>
+                  </div>
+                  <br>
+                  <div class="r-row">
+                    <strong><p>NCWIT</p></strong>
+                    <p>National Award Honorable Mention</p>
+                    <p>2017</p>
+                  </div>
+                </div>
+                <br>
+                <div>
+                  <div class="r-row">
+                    <strong><p>NCWIT</p></strong>
+                    <p>Affiliate Award West Seattle</p>
+                    <p>2017</p>
+                  </div>
+                  <br>
+                  <div class="r-row">
+                    <strong><p>NCWIT</p></strong>
+                    <p>Affiliate Award Eastern Washington</p>
+                    <p>2016</p>
+                  </div>
+                </div>
+              </div>
             </section>
             <br>
+
             <section>
               <h3>Organizations</h3>
               <div class="container" id="organizations">

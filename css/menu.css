@@ -5,7 +5,9 @@ nav{
   padding: 1.5%;
   text-align: left;
 }
-
+h1{
+  line-height: 100%;
+}
 .general-nav{
   flex-direction: row;
   justify-content: space-evenly;
@@ -28,11 +30,8 @@ a {
   text-decoration: none;
 }
 
-/*For tablets*/
+/*For tablets and the mobile header*/
 @media (max-width: 1000px){
-  h1{
-    line-height: 30%;
-  }
   .general-nav{
     align-items: flex-end;
   }
