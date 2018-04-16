@@ -1,0 +1,181 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M960 0h64v736c0 88.366-100.29 160-224 160s-224-71.634-224-160c0-88.368 100.29-160 224-160 62.684 0 119.342 18.4 160 48.040v-368.040l-512 113.778v494.222c0 88.366-100.288 160-224 160s-224-71.634-224-160c0-88.368 100.288-160 224-160 62.684 0 119.342 18.4 160 48.040v-624.040l576-128z"
+        ],
+        "tags": [
+          "music",
+          "song",
+          "audio",
+          "sound",
+          "note"
+        ],
+        "defaultCode": 59665,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "music, song",
+        "name": "music",
+        "order": 6,
+        "id": 18,
+        "prevSize": 32,
+        "code": 59665
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 17
+    },
+    {
+      "icon": {
+        "paths": [
+          "M704 64l-320 320h-192l-192 256c0 0 203.416-56.652 322.066-30.084l-322.066 414.084 421.902-328.144c58.838 134.654-37.902 328.144-37.902 328.144l256-192v-192l320-320 64-320-320 64z"
+        ],
+        "tags": [
+          "rocket",
+          "jet",
+          "speed",
+          "spaceship",
+          "fast"
+        ],
+        "defaultCode": 59813,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "rocket, jet",
+        "name": "rocket",
+        "order": 3,
+        "id": 166,
+        "prevSize": 32,
+        "code": 59813
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 165
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 448h-100.924c-27.64-178.24-168.836-319.436-347.076-347.076v-100.924h-128v100.924c-178.24 27.64-319.436 168.836-347.076 347.076h-100.924v128h100.924c27.64 178.24 168.836 319.436 347.076 347.076v100.924h128v-100.924c178.24-27.64 319.436-168.836 347.076-347.076h100.924v-128zM792.822 448h-99.762c-19.284-54.55-62.51-97.778-117.060-117.060v-99.762c107.514 24.49 192.332 109.31 216.822 216.822zM512 576c-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64s-28.654 64-64 64zM448 231.178v99.762c-54.55 19.282-97.778 62.51-117.060 117.060h-99.762c24.49-107.512 109.31-192.332 216.822-216.822zM231.178 576h99.762c19.282 54.55 62.51 97.778 117.060 117.060v99.762c-107.512-24.49-192.332-109.308-216.822-216.822zM576 792.822v-99.762c54.55-19.284 97.778-62.51 117.060-117.060h99.762c-24.49 107.514-109.308 192.332-216.822 216.822z"
+        ],
+        "tags": [
+          "target",
+          "goal",
+          "location",
+          "spot"
+        ],
+        "defaultCode": 59827,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "target, goal",
+        "name": "target",
+        "order": 4,
+        "id": 180,
+        "prevSize": 32,
+        "code": 59827
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 179
+    },
+    {
+      "icon": {
+        "paths": [
+          "M384 0l-384 512h384l-256 512 896-640h-512l384-384z"
+        ],
+        "tags": [
+          "power",
+          "lightning",
+          "bolt",
+          "electricity"
+        ],
+        "defaultCode": 59829,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "power, lightning",
+        "name": "power",
+        "order": 5,
+        "id": 182,
+        "prevSize": 32,
+        "code": 59829
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 181
+    },
+    {
+      "icon": {
+        "paths": [
+          "M576 96c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z",
+          "M719 512l49-35.5-133.286-206.116c-5.92-8.98-15.958-14.384-26.714-14.384h-256c-10.756 0-20.792 5.404-26.714 14.384l-133.286 206.116 49 35.5 110.644-143.596 38.458 89.74-134.102 245.856h122.666l21.334 320h64v-320h32v320h64l21.334-320h122.666l-134.104-245.858 38.458-89.74 110.646 143.598z"
+        ],
+        "tags": [
+          "woman",
+          "female",
+          "gender",
+          "sex"
+        ],
+        "defaultCode": 59869,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "woman, female",
+        "name": "woman",
+        "order": 2,
+        "id": 222,
+        "prevSize": 32,
+        "code": 59869
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 221
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
