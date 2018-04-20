@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/*Mobile*/
+@media (min-width: 560px) {
+  body{
+    font-family: "Open Sans", sans-serif;
+  }
+  #mobile-nav{
+    background-color: #b4ff9f;
+    font-family: "Rubik", sans-serif;
+  }
+}
+/*Tablet*/
+@media (min-width: 1200px){
+
+}
+/*Laptop and Beyond*/
