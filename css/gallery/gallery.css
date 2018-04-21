@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+/*Mobile*/
+html, body{
+  margin: 0;
+  padding: 0;
+}
+  body{
+    font-family: "Open Sans", sans-serif;
+  }
+  #main{
+    font-weight: bold;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffb0b0;
+  }
+  #mobilemain{
+    font-weight: bold;
+    font-size: 90px;
+    display: block;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffb0b0;
+    background-color: #b4ff9f;
+  }
+
+  #mobile-nav{
+    font-family: "Rubik", sans-serif;
+    background-color: #b4ff9f;
+  }
+  #gallery{
+    width: 100%;
+    background-color: red;
+  }
+  #details{
+    display: none;
+  }
+
+/*Tablet*/
+@media (min-width: 570px){
+
+  #main{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1{
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  #mobilemain{
+    display: none;
+  }
+  #gallery{
+    height: 100%;
+    width: 60%;
+  }
+  #details{
+    display: block;
+    width: 40%;
+    background-color: blue;
+  }
+  #nav-items{
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 20px;
+  }
+  #navigation{
+    font-family: "Rubik", sans-serif;
+    background-color: #b4ff9f;
+  }
+
+}
+
+/*Laptop and Beyond*/
+@media (min-width: 1200px) {
+  h1{
+    font-size: 80px;
+    width: 30%;
+  }
+  #nav-items{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 80px;
+  }
+}

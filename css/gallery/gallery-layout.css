@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+#heading, h2{
+  text-align: center;
+  border-top: thick black solid;
+  border-bottom: thick black solid;
+}
+#heading{
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}

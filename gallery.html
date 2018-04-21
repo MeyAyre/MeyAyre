@@ -4,8 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/gallery/gallery.css">
+    <link rel="stylesheet" href="css/gallery/gallery-layout.css">
     <link rel="stylesheet" href="css/hamburger.css">
+    <script src="Scripts/svg-injector.min.js"></script>
+    <script>
+  // Elements to inject
+  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+
+  // Do the injection
+  SVGInjector(mySVGsToInject);
+</script>
     <title>Zapple - Arlo's Plushies</title>
   </head>
   <body>
@@ -17,13 +26,20 @@
       </div>
       <!--Main Menu-->
       <nav id="navigation">
-        <img>
-        <a>Gallery</a>
-        <a>Commissions</a>
-        <a>Contact Me</a>
+        <div id="heading" class="container">
+          <h1 id="main">ZAPPLE</h1>
+          <div id="nav-items" class="container">
+            <a>Gallery</a>
+            <a>Commissions</a>
+            <a>Contact Me</a>
+          </div>
+        </div>
       </nav>
 
       <!-- Mobile Menu -->
+      <div>
+        <h1 id="mobilemain">ZAPPLE</h1>
+      </div>
       <div>
         <nav class="container" id="mobile-nav">
           <ul>
@@ -37,7 +53,19 @@
           </ul>
         </nav>
       </div>
-
     </header>
+
+    <!-- Body Content -->
+    <h2>Gallery</h2>
+    <div class="container">
+      <div id="gallery">
+        <div>
+        </div>
+        <div class=""></div>
+      </div>
+      <div id="details">
+        plz
+      </div>
+    </div>
   </body>
 </html>
