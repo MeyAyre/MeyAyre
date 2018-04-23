@@ -11,6 +11,11 @@ html, body{
   h2{
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left: 1%;
+    margin-bottom: 2%;
+    text-align: center;
   }
   img{
     border-radius: 25%;
@@ -18,9 +23,13 @@ html, body{
   }
   #search{
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
   }
-
+  #search-box{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   #desktop{
     display: none;
   }
@@ -44,6 +53,13 @@ html, body{
     background-color: #b4ff9f;
   }
 
+  #mobile-header{
+    background-color: #b4ff9f;
+  }
+  #mobile-header > p{
+    margin-top: 0;
+    text-align: center;
+  }
   #mobile-nav{
     font-family: "Rubik", sans-serif;
     background-color: #b4ff9f;
@@ -60,12 +76,14 @@ html, body{
     text-align: center;
     margin: 0 auto;
     font-family: Verdana, sans-serif;
+    color: #6ec1d3;
   }
 
 /*Tablet*/
 @media (min-width: 600px){
   #search-box{
     margin-left: 30%;
+    margin-top: 5%;
   }
   #main{
     margin-top: 0;
@@ -75,22 +93,23 @@ html, body{
     font-size: 60px;
   }
   h3{
-    color: #94ebff;
+    color: #6ec1d3;
     border: thick #94ebff solid;
   }
 
-  #mobilemain{
+  #mobile-header{
     display: none;
   }
+
   #gallery{
     height: 100%;
     width: 60%;
-    background-color: #edf2f9;
+    background-color: white;
   }
   #details{
     display: block;
     width: 40%;
-    background-color: #b4ff9f;
+    background-color: #edf2f9;
   }
   #nav-items{
     justify-content: space-evenly;
@@ -126,15 +145,20 @@ html, body{
     font-size: 80px;
     width: 30%;
   }
+  #search{
+    margin-left: 5%;
+  }
   #nav-items{
     font-size: 30px;
     align-items: flex-end;
   }
   h2{
+    width: 25%;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 50px;
-    border-right: solid black thick;
+    padding-right: 0;
+    padding-left: 0;
   }
   #details-title{
     font-size: 50px;
