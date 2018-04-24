@@ -38,7 +38,6 @@ h2{
   font-family: "Rubik", sans-serif;
   font-weight: 900;
   font-size: 50px;
-  width: 35%;
   border: thick solid #b4ff9f;
   border-top: none;
   color: white;
@@ -47,6 +46,18 @@ h2{
   -webkit-text-stroke-color: #ffb0b0;
   background-color: white;
 }
+.carousel{
+  border-radius: 0;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5%;
+  border: none;
+}
+h4{
+  padding-top: 5%;
+
+}
+
 
 #heading{
   align-items: center;

@@ -12,6 +12,7 @@ html, body{
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
     margin: 0 auto;
+    width: 50%;
     padding-right: 5%;
     padding-left: 1%;
     margin-bottom: 2%;
@@ -50,11 +51,14 @@ html, body{
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #ffb0b0;
-    background-color: #b4ff9f;
+    background-color: #9bff80;
+  }
+  #gallery-images{
+    background-color: white;
   }
 
   #mobile-header{
-    background-color: #b4ff9f;
+    background-color: #9bff80;
   }
   #mobile-header > p{
     margin-top: 0;
@@ -62,11 +66,10 @@ html, body{
   }
   #mobile-nav{
     font-family: "Rubik", sans-serif;
-    background-color: #b4ff9f;
+    background-color: #9bff80;
   }
   #gallery{
     width: 100%;
-    background-color: red;
   }
   #details{
     display: none;
@@ -113,20 +116,27 @@ html, body{
   }
   #nav-items{
     justify-content: space-evenly;
-    width: 70%;
+    width: 80%;
     font-weight: 900;
     font-size: 25px;
   }
   #nav-items > a{
     color: white;
   }
+  #tagline{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    padding-bottom: 1%;
+  }
   #navigation{
     font-family: "Rubik", sans-serif;
-    background-color: #b4ff9f;
+    background-color: #9bff80;
   }
   #details-body{
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 7%;
     width: 90%;
     background-color: white;
   }
@@ -153,7 +163,7 @@ html, body{
     align-items: flex-end;
   }
   h2{
-    width: 25%;
+    width: 35%;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 50px;
@@ -174,5 +184,22 @@ html, body{
     width: 50%;
     margin: 0 auto;
     margin-top: 0;
+  }
+  #detail-image-title{
+    border: none;
+    font-size: 40px;
+    text-align: center;
+  }
+  .gallery-cell{
+    margin: 0 auto;
+    padding: 5%;
+  }
+  .doubled{
+    margin-left: 10%;
+  }
+  .text{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
   }
 }
