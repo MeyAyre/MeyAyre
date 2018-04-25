@@ -81,9 +81,40 @@ html, body{
     font-family: Verdana, sans-serif;
     color: #6ec1d3;
   }
+  #mobile-details{
+    background-color: #edf2f9;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    border: thick #e4ff55 solid;
+  }
+  #close-button{
+    right: 50%;
+    color: #33a8c4;
+    font-weight: bolder;
+    padding-left: 80%;
+  }
+  #detail-image-title{
+    text-align: center;
+    color: #6ec1d3;
+  }
+  .text{
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+  }
+  .doubled{
+    left: 50%;
+  }
 
 /*Tablet*/
 @media (min-width: 600px){
+  #desktop{
+    display: flex;
+  }
+  #mobile-content{
+    display: none;
+  }
   #search-box{
     margin-left: 30%;
     margin-top: 5%;
@@ -143,7 +174,7 @@ html, body{
 
 }
 
-/*Laptop and Beyond*/
+/*iPad Pro, Laptop and Beyond*/
 @media (min-width: 900px) {
   #mobile-content{
     display: none;
@@ -189,6 +220,15 @@ html, body{
     border: none;
     font-size: 40px;
     text-align: center;
+  }
+  #details-placeholder{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .claire-bob{
+    display: none;
   }
   .gallery-cell{
     margin: 0 auto;
