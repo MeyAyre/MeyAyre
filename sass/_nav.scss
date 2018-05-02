@@ -1,0 +1,12 @@
+$navBackground: red;
+@mixin border-style($radius, $color){
+  border-radius: $radius;
+  color: $color;
+}
+nav{
+  background-color: $navBackground;
+  @include border-style(25%, white);
+}
+p{
+  text-align: center;
+}
