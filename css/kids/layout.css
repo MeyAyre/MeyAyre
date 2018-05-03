@@ -22,13 +22,14 @@ h3{
 #kids, #teachers{
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  padding: 10%;
+  font-family: "Baloo", sans-serif;
+  color: white;
 }
 
 #play, #login{
   margin: 0 auto;
   margin-top: 5%;
-  padding: 5%;
-  width: 50%;
+  width: 75%;
   border-radius: 25px;
 }
