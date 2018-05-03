@@ -1,0 +1,34 @@
+h2{
+  width: 50%;
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+}
+.banner{
+  justify-content: space-around;
+}
+#about{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+#kids, #teachers{
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#play, #login{
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 5%;
+  width: 50%;
+  border-radius: 25px;
+}
