@@ -37,7 +37,8 @@ footer{
   margin: 0 auto;
   text-align: center;
   background-color: white;
-  padding: 3%;
+  padding: 1%;
+  margin-top: 5%;
 }
 #desktop-nav{
   display: none;
@@ -63,7 +64,7 @@ footer{
   color: black;
 }
 #storyline{
-  background-color: #323335;
+  background-color: #268708;
   color: white;
   padding-top: 1%;
   margin-top: 0;
@@ -72,6 +73,8 @@ footer{
 #storyline > h3{
   font-size: 3.5em;
   padding-bottom: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 #storyline > div > p{
   margin: 0 auto;
@@ -90,8 +93,8 @@ footer{
   font-size: 30px;
   text-align: center;
   font-weight: bolder;
-  background-color: #323335;
-  color: blue;
+  background-color: black;
+  color: white;
   font-family: "Baloo", sans-serif;
   padding: 2%;
 }
@@ -107,7 +110,7 @@ footer{
 }
 #play, #login{
   font-weight: bold;
-  background: linear-gradient(#022ece, #042291);
+  background: linear-gradient(#1f55d3, #052072);
   font-family: "Baloo", sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -116,13 +119,15 @@ footer{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
-
+#play{
+  background: linear-gradient(#8c0e91, #560559);
+}
 #kids{
-  background-color:#49309b;
+  background-color:#cc1420;
   border-top-left-radius: 25px;
 }
 #teachers{
-  background-color: green;
+  background-color: #560559;
   width: 30%;
   border-top-right-radius: 25px;
 }
