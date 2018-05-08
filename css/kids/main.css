@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo');
 body{
   font-family: sans-serif;
-  background-color: #1e3d31;
+  background: url("../../Images/DungeonGems/stonewall.jpg");
 }
 /*Mobile*/
 h2{
@@ -31,7 +31,22 @@ main{
   margin: 0 auto;
   border-radius: 25px;
   border: #ede407 2px solid;
-
+}
+#desktop-nav{
+  display: none;
+}
+#mobile-heading{
+  background-color: #ede407;
+  border-radius: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: thick black solid;
+}
+#mobile-nav > ul > li{
+  margin-left: 15%;
+}
+.m-nav-item{
+  color: black;
 }
 #about{
   margin-top: 10%;
@@ -74,11 +89,23 @@ main{
 
 /*Tablet*/
 @media(min-width: 600px){
+  header{
+    background-color: inherit;
+  }
   nav > div > p{
     font-size: 20px;
   }
   h2{
     font-size: 30px;
+  }
+  #desktop-nav{
+    display: flex;
+  }
+  #mobile-nav{
+    display: none;
+  }
+  #mobile-heading{
+    display: none;
   }
   #play, #login{
     font-size: 25px;
@@ -99,12 +126,17 @@ main{
     font-size: 27px;
   }
   h2{
-    font-size: 40px;
+    font-size: 4em;
   }
   h3{
     font-size: 30px;
   }
   #play, #login{
-    font-size: 30px;
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+  #teachers > h2{
+    text-align: center;
+    margin-left: 10%;
   }
 }
