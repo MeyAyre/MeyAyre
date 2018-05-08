@@ -32,6 +32,13 @@ main{
   border-radius: 25px;
   border: #ede407 2px solid;
 }
+footer{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 3%;
+}
 #desktop-nav{
   display: none;
 }

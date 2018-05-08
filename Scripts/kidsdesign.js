@@ -26,7 +26,7 @@ $(document).ready( function(){
     });
   }
   function initPhoneHovering() {
-  $(".gems > img[id]").each(function(){
+  $(".gems > div[id]").each(function(){
     totalElements++;
     elementAnimationDelay += 0.4;
 
