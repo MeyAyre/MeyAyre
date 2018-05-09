@@ -7,6 +7,8 @@ $(document).ready( function(){
   var totalElements = 0;
   var elementAnimationDelay = 0;
   var elementCountUp = 0;
+  //Easter Egg
+  var magicsound = "Sounds/fairy-wand.wav";
 
   function elementMoveDown(elementItem) {
   if(elementCountUp != totalElements) {
@@ -40,5 +42,8 @@ $(document).ready( function(){
   initPhoneHovering();
 
   //Easter Eggs
-
+  $('.gems').hover(function(){
+    console.log("PLEASE");
+    $('#audio').html('<audio autoplay><source src= ' + magicsound + '></audio>');
+  });
 });
