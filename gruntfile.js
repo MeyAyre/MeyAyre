@@ -38,7 +38,17 @@ module.exports = function(grunt) {
 					'sass'
 				]
 			}
-		}
+		},
+		jshint: {
+		   all: ['Gruntfile.js', 'Scripts/**/*.js']
+		},
+		uglify: {
+		    my_target: {
+		      files: {
+			'Scripts/dest/output.min.js': ['Scripts/kidsdesign.js']
+		      }
+		    }
+		 }
 
 	});
 
