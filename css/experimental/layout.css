@@ -1,0 +1,21 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin-left: 0;
+}
+.container{
+  display: flex;
+}
+#main-menu{
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.menu-text{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Covered By Your Grace', cursive;
+}
