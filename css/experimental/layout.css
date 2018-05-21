@@ -9,13 +9,34 @@ header{
   display: flex;
 }
 #main-menu{
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   width: 80%;
   margin: 0 auto;
 }
+#mobile-music-hearts{
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.non-mobile{
+  margin-top: 4%;
+}
+#logo{
+  margin-top: 0;
+}
 .menu-text{
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Covered By Your Grace', cursive;
+}
+
+.mmt{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 550px){
+  .menu-text{
+    font-size: 3em;
+  }
 }
