@@ -35,12 +35,15 @@ header{
 .mmt{
   margin-bottom: 0;
 }
-
 #other-content{
   width: 95%;
   margin: 0 auto;
 }
-
+.carousel-cell{
+  width: 100%; /* full width */
+  height: 300px; /* height of carousel */
+  margin-right: 10px;
+}
 @media (min-width: 550px){
   .menu-text{
     font-size: 3em;
