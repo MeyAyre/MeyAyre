@@ -1,0 +1,51 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  margin-left: 0;
+}
+
+.container{
+  display: flex;
+}
+#main-menu{
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+#mobile-music-hearts{
+  margin-left: 25%;
+  margin-top: 25%;
+}
+.non-mobile{
+  margin-top: 4%;
+}
+#logo{
+  margin-top: 0;
+}
+.menu-text{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Covered By Your Grace', cursive;
+  margin-top: 0;
+}
+.mmt{
+  margin-bottom: 0;
+}
+#other-content{
+  width: 95%;
+  margin: 0 auto;
+}
+.carousel-cell{
+  width: 100%; /* full width */
+  height: 300px; /* height of carousel */
+  margin-right: 10px;
+}
+@media (min-width: 550px){
+  .menu-text{
+    font-size: 3em;
+  }
+}
