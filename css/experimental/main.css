@@ -25,7 +25,4 @@ main{
   background-color: #FABBC9;
 }
 @media(min-width: 550px){
-  #logo{
-    margin-left: 7%;
-  }
 }

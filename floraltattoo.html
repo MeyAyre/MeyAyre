@@ -6,9 +6,9 @@
     <script src="Scripts/hamburger.js"></script>
     <!-- Flickity JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="Scripts/ft.js"></script>
     <!-- Flickity CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="Scripts/ft.js"></script>
     <link rel="stylesheet" href="css/hamburger.css">
     <link rel="stylesheet" href="css/experimental/main.css">
     <link rel="stylesheet" href="css/experimental/layout.css">
@@ -40,9 +40,9 @@
         <!-- Mobile Menu -->
         <nav id="mobile-nav" class="container">
           <img id="mobile-music-hearts" src="Images/floral-tattoo/ft-music-hearts-sm.png">
-          <h2 class="menu-text">Music</h2>
+          <h2 class="menu-text m-menu-text">Music</h2>
           <img id="mobile-music-hearts" src="Images/floral-tattoo/ft-heart-red-sm.png">
-          <h2 class="menu-text">Contact Us</h2>
+          <h2 class="menu-text m-menu-text">Contact Us</h2>
         </nav>
       </header>
       <main>
@@ -50,37 +50,41 @@
         <div class="banner">
           <div class="main-carousel">
             <div class="carousel-cell">
-              <img class="banner-image" srcset="Images/floral-tattoo/approaching-bearable-banner-sm.png 340w, Images/floral-tattoo/approaching-bearable-banner-md.png 600w, Images/floral-tattoo/approaching-bearable-banner-lg.png 700w"
+              <img class="banner-image carousel" srcset="Images/floral-tattoo/approaching-bearable-banner-sm.png 340w, Images/floral-tattoo/approaching-bearable-banner-md.png 600w, Images/floral-tattoo/approaching-bearable-banner-lg.png 700w"
                 sizes="(max-width: 550px) 340px, (max-width: 800px) 600px, (max-width: 1600px) 700px"
                 src="Images/floral-tattoo/approaching-bearable-banner-sm.png" alt="Approaching Bearable is Now Out!">
             </div>
-            <div class="carousel-cell"> <div>Help</div></div>
+            <div class="carousel-cell">
+              <p class="carousel">Help</p>
+            </div>
             <div class="carousel-cell"></div>
           </div>
-
-
         </div>
-        <h2 class="heading">
-          Upcoming Shows
-        </h2>
-        <ul>
-          <li>Vortex - Find the Facebook Event Here: </li>
-          <li>
-            <p>Victory Lounge - Mar 20th - 800 Pennies (or $8) at the Door.</p>
-            <p>
-              Featuring:
-              <ul>
-                <li>Porn Bloopers</li>
-                <li>The Band Ice Cream</li>
-                <li>Floral Tattoo</li>
-              </ul>
-              <br>
-              Facebook Event:
-            </p>
-          </li>
-          <li></li>
-        </ul>
-        <p>Want to book us for a gig? We want you to too! Go <a href=""> here</a> for more details</p>
+        <section id="shows">
+          <h2 class="heading">
+            Upcoming Shows
+          </h2>
+          <ul>
+            <li>Vortex - Find the Facebook Event Here: </li>
+            <li>
+              <p>Victory Lounge - Mar 20th - 800 Pennies (or $8) at the Door.</p>
+              <p>
+                Featuring:
+                <ul>
+                  <li>Porn Bloopers</li>
+                  <li>The Band Ice Cream</li>
+                  <li>Floral Tattoo</li>
+                </ul>
+                <br>
+                Facebook Event:
+              </p>
+            </li>
+            <li></li>
+          </ul>
+        </section>
+        <div id="other-content">
+          <p>Want to book us for a gig? We want you to too! Go <a href=""> here</a> for more details</p>
+        </div>
       </main>
       <footer>
         <p>

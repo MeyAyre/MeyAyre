@@ -1,10 +1,12 @@
 html, body{
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 header{
   margin-left: 0;
 }
+
 .container{
   display: flex;
 }
@@ -28,11 +30,15 @@ header{
   text-align: center;
   font-size: 2em;
   font-family: 'Covered By Your Grace', cursive;
+  margin-top: 0;
+}
+.mmt{
+  margin-bottom: 0;
 }
 
-.mmt{
-  margin-top: 0;
-  margin-bottom: 0;
+#other-content{
+  width: 95%;
+  margin: 0 auto;
 }
 
 @media (min-width: 550px){
