@@ -46,3 +46,54 @@ Bootstrap has an MIT license and is copyrighted by Twitter.
 ## Developer support tools
 	Flickity also has an API that developers can use to create custom UIs.
 Bootstrap has different aspects of the library are customizable, as well as a linting tool.
+
+###The demo for flickity for this assignment is under floraltattoo.html OR gallery.html
+
+
+
+
+
+# Anime.js VS GSAP
+## File Size (Weight) - what is the file size of the library?
+Anime.js is 14.4kb according to its Github, GSAP is about 35kb depending on the library you use.
+
+##Dependences - how much do required libraries add to its size?
+There are no dependencies for either library.
+
+##Functionality/Reusability - how well do its features match your need?
+I'm trying to animate some flowers, so both are pretty good for that.
+
+##Robust - in which browsers and versions does it work?
+Anime.js: Chrome 24+, Safari 6+, Edge 10+, Firefox 32+, and Opera 15+
+GSAP: Supported on all major browsers including IE6
+
+##Performance (fast) - does it lag on desktop or mobile browsers?
+Nope (for both)
+
+##Maturity - how long has it been around?
+AnimeJS has been around since 2016, GSAP since 2014
+
+##Supportive community - how many people use it?
+The online community that uses anime.js seems to be pretty small, especially as this is a very new library.
+
+GSAP has years of support and praise behind it.
+
+##Ongoing development - when was its latest update? how is it supported ($$$)?
+The latest update to Anime.js was 6 months ago. Does not seem to be making any money.
+
+GSAP has memberships as well as different licenses that can be bought.
+
+##Documentation quality - consider both quantity and quality
+Both services have relatively okay documentation. They're about of similar quality and quantity, but you have
+to go on Github to get decent documentation for Anime.js.
+
+##License - which license does the library use?
+Anime.js has an MIT license
+
+GSAP has different kinds of licenses you can get. There's the free one, and then there's the ones for commercial and business use
+that you have to buy.
+
+##Developer support tools - can you write your own customize functions to extend it?
+Anime.js and GSAP do not have any additional support tools.
+
+### The example for anime.js can be found at test.html

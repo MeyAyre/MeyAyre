@@ -1,0 +1,26 @@
+{
+  "name": "meyayre.github.io",
+  "version": "1.0.0",
+  "description": "Flickity is  1.40 MB total",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeyAyre/MeyAyre.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeyAyre/MeyAyre.github.io/issues"
+  },
+  "homepage": "https://github.com/MeyAyre/MeyAyre.github.io#readme",
+  "dependencies": {
+    "animejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
