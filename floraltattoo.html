@@ -23,25 +23,33 @@
           sizes="(max-width: 550px) 34px,(max-width: 1000px) 46px"
           src="Images/hamburger-icon-md.png" aria-label="Menu Button" alt="" role="presentation">
         </div>
-
+        <section id="notice">
+          <h2>
+            NOTICE
+          </h2>
+          <p>
+            This site as it is right now, hosted on Github, is purely for the educational purposes of an assignment from
+            Cascadia College's BIT175 class and not commercial use.
+          </p>
+        </section>
         <nav id="main-menu" class="container">
           <div class="non-mobile">
-            <img src="Images/floral-tattoo/ft-music-hearts-md.png">
+            <img src="Images/floral-tattoo/ft-music-hearts-md.png" role="presentation">
             <h2 class="menu-text mmt">Music</h2>
           </div>
           <img id="logo" srcset="Images/floral-tattoo/ft-main-sm.png 200w, Images/floral-tattoo/ft-main-md-5.png 250w, Images/floral-tattoo/ft-main-md.png 300w"
             sizes="(max-width: 550px) 200px, (max-width: 800px) 250px, (max-width: 1600px) 300px"
             src="Images/floral-tattoo/ft-main-sm.png" alt="Floral Tattoo">
             <div class="non-mobile">
-              <img src="Images/floral-tattoo/ft-heart-red-md.png">
+              <img class="heart" src="Images/floral-tattoo/ft-heart-red-md.png">
               <h2 class="menu-text mmt">Contact Us</h2>
             </div>
         </nav>
         <!-- Mobile Menu -->
         <nav id="mobile-nav" class="container">
-          <img id="mobile-music-hearts" src="Images/floral-tattoo/ft-music-hearts-sm.png">
+          <img class="mobile-music-hearts" src="Images/floral-tattoo/ft-music-hearts-sm.png" role="presentation">
           <h2 class="menu-text m-menu-text">Music</h2>
-          <img id="mobile-music-hearts" src="Images/floral-tattoo/ft-heart-red-sm.png">
+          <img class="mobile-music-hearts heart" src="Images/floral-tattoo/ft-heart-red-sm.png" role="presentation">
           <h2 class="menu-text m-menu-text">Contact Us</h2>
         </nav>
       </header>
@@ -50,8 +58,8 @@
         <div class="banner">
           <div class="main-carousel">
             <div class="carousel-cell">
-              <img class="banner-image carousel" srcset="Images/floral-tattoo/approaching-bearable-banner-sm.png 340w, Images/floral-tattoo/approaching-bearable-banner-md.png 600w, Images/floral-tattoo/approaching-bearable-banner-lg.png 700w"
-                sizes="(max-width: 550px) 340px, (max-width: 800px) 600px, (max-width: 1600px) 700px"
+              <img class="banner-image carousel" srcset="Images/floral-tattoo/album-out-banner-sm.png 340w, Images/floral-tattoo/album-out-banner-md.png 600w, Images/floral-tattoo/album-out-banner-lg.png 689w"
+                sizes="(max-width: 550px) 340px, (max-width: 800px) 600px, (max-width: 1600px) 689px"
                 src="Images/floral-tattoo/approaching-bearable-banner-sm.png" alt="Approaching Bearable is Now Out!">
             </div>
             <div class="carousel-cell">
@@ -60,9 +68,15 @@
                 src="Images/floral-tattoo/approaching-bearable-banner-sm.png" alt="Approaching Bearable is Now Out!">
             </div>
             <div class="carousel-cell">
-              <img class="banner-image carousel" srcset="Images/floral-tattoo/approaching-bearable-banner-sm.png 340w, Images/floral-tattoo/approaching-bearable-banner-md.png 600w, Images/floral-tattoo/approaching-bearable-banner-lg.png 700w"
-                sizes="(max-width: 550px) 340px, (max-width: 800px) 600px, (max-width: 1600px) 700px"
-                src="Images/floral-tattoo/approaching-bearable-banner-sm.png" alt="Approaching Bearable is Now Out!">
+              <div id="tapes">
+                <div id="tapes-text">
+                  <h3>WE HAVE TAPES!</h3>
+                   Get a physical copy of Approaching Bearable now! Or later!
+                </div>
+                <img class="banner-image carousel" id="nico-tapes" srcset="Images/floral-tattoo/tapes-sm.png 100w, Images/floral-tattoo/tapes-md.png 200w, Images/floral-tattoo/tapes-lg.png 300w"
+                  sizes="(max-width: 550px) 100px, (max-width: 800px) 200px, (max-width: 1600px) 300px"
+                  src="Images/floral-tattoo/tapes-sm.png" alt="Nico from Floral Tattoo holding a package of cassette tapes">
+              </div>
             </div>
           </div>
         </div>

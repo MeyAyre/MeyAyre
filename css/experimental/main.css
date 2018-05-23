@@ -3,6 +3,11 @@
 html{
   background-color: white;
 }
+#notice{
+  background-color: white;
+  padding-bottom: 1%;
+  text-align: center;
+}
 header{
   background-color: #FABBC9;
 }

@@ -16,9 +16,12 @@ header{
   width: 80%;
   margin: 0 auto;
 }
-#mobile-music-hearts{
+.mobile-music-hearts{
   margin-left: 25%;
   margin-top: 25%;
+}
+.heart{
+  margin-left: 35%;
 }
 .non-mobile{
   margin-top: 4%;
@@ -39,6 +42,21 @@ header{
   width: 95%;
   margin: 0 auto;
 }
+#tapes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+#nico-tapes{
+  margin-right: 0;
+}
+#tapes-text{
+  width: 45%;
+  font-size: 1.5em;
+  background-color: white;
+}
 .carousel-cell{
   width: 100%; /* full width */
   height: 300px; /* height of carousel */
@@ -47,5 +65,14 @@ header{
 @media (min-width: 550px){
   .menu-text{
     font-size: 3em;
+  }
+  #tapes-text{
+    width: 45%;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 1%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 3%;
   }
 }
