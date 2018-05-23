@@ -1,5 +1,5 @@
 
-@media (max-width: 550px){
+@media (max-width: 600px){
 
 /* This is going away once I get the hamburger and x icons.
  * Once I have those icons, I'll just switch the icons in the
@@ -62,7 +62,7 @@
   }
 }
 /*Hide the mobile menu on non-mobile device*/
-@media (min-width: 550px){
+@media (min-width: 600px){
   #hamburger{
     display: none;
   }

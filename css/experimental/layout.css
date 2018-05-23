@@ -45,27 +45,36 @@ header{
 #tapes{
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   background-color: white;
+  height: 100%;
 }
 #nico-tapes{
   margin-right: 0;
 }
 #tapes-text{
-  width: 45%;
-  font-size: 1.5em;
+  width: 50%;
+  font-size: 1em;
   background-color: white;
 }
 .carousel-cell{
   width: 100%; /* full width */
-  height: 300px; /* height of carousel */
+  height: 200px; /* height of carousel */
   margin-right: 10px;
 }
-@media (min-width: 550px){
+/* Focusable via keyboard for accessibility */
+.flickity-enabled:focus .flickity-viewport {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/*Tablet+*/
+@media (min-width: 570px){
   .menu-text{
-    font-size: 3em;
+    font-size: 2.5em;
   }
+
   #tapes-text{
     width: 45%;
     font-size: 1.5em;
@@ -74,5 +83,9 @@ header{
     margin-left: 5%;
     padding-left: 2%;
     padding-right: 3%;
+  }
+
+  .carousel-cell{
+    height: 325px;
   }
 }
