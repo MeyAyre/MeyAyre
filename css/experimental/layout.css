@@ -118,5 +118,11 @@ section{
   }
   .main-container{
     flex-direction: row;
+    justify-content: space-around;
+  }
+  #group-photo{
+    margin: 0;
+  }
+  #section-pictures{
   }
 }
