@@ -12,6 +12,9 @@ html{
 header{
   background-color: #FABBC9;
 }
+#mobile-nav{
+  background-color: #FABBC9;
+}
 main{
   background-color: #E7E8D8;
 }
@@ -27,19 +30,10 @@ main{
   font-size: 3.50em;
   text-align: center;
 }
-#shows{
-  margin-left: 5%;
-  width: 75%;
-}
-#section-pictures{
-  width: 30%;
-}
-.bio{
-  width: 75%;
-  margin-left: 15%;  
-}
+
 .fancy-font{
   font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 1.25em;
 }
 .no-style{
   list-style-type: none;
@@ -49,17 +43,22 @@ main{
   font-size: 2em;
 }
 .show-info{
-  margin-left: 5%;
   padding: 2%;
   margin-top: 5%;
   background-color: white;
   border: thick solid black;
 }
-#mobile-nav{
-  background-color: #FABBC9;
-}
+
 @media(min-width: 600px){
   #shows{
     width: 50%;
+    margin-left: 5%;
+  }
+  #section-pictures{
+    width: 30%;
+  }
+  .bio{
+    width: 75%;
+    margin-left: 15%;
   }
 }

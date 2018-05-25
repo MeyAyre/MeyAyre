@@ -69,6 +69,31 @@ header{
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#group-photo{
+  margin-left: 20%;
+}
+#bio-text{
+  margin-left: 5%;
+}
+
+section{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#shows{
+  margin-left: 0;
+}
+#show-heading{
+  font-size: 3em;
+  margin-left: 5%;
+}
+
 /*Tablet+*/
 @media (min-width: 570px){
   .menu-text{
@@ -87,5 +112,11 @@ header{
 
   .carousel-cell{
     height: 325px;
+  }
+  section{
+    width: 100%;
+  }
+  .main-container{
+    flex-direction: row;
   }
 }
