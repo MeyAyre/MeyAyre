@@ -15,6 +15,10 @@ header{
 #mobile-nav{
   background-color: #FABBC9;
 }
+.menu-links{
+  text-decoration: none;
+  color: black;
+}
 main{
   background-color: #E7E8D8;
 }
