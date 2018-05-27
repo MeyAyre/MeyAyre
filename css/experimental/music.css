@@ -1,0 +1,68 @@
+/*Mobile*/
+main{
+  margin-top: 0;
+  background-color: #FC6D92;
+  padding: 3%;
+}
+h1{
+  margin-top: 0;
+  color: white;
+  font-family: fantasy;
+  font-weight: 400;
+}
+.album-info{
+  width:  50%;
+  margin-top: 5%;
+  font-size: 1em;
+}
+.info{
+  font-size: 0.75em;
+  color: white;
+}
+.container{
+  justify-content: space-around;
+}
+
+#approaching-bearable{
+  margin: 0 auto;
+}
+#middle-row{
+  margin-left: 15%;
+}
+ol{
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Covered By Your Grace', sans-serif;
+  width: 80%;
+  display: block;
+  list-style-type: decimal;
+}
+li{
+  border-bottom: solid #582834 thick;
+  padding-top: 5%;
+}
+
+iframe{
+  display: block;
+  padding-bottom: 1%;
+  margin-top: -5%;
+  line-height: 0;
+}
+
+/*tablet*/
+
+@media (min-width: 600px){
+  .album-info{
+    font-size: 1.5em;
+    margin-right: 5%;
+  }
+
+  .info{
+    font-size: 0.75em;
+  }
+}
+@media(min-width: 1000px){
+  .album-info{
+    font-size: 2.5em;
+  }
+}
