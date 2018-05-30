@@ -4,18 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
+    <!--Anime.JS -->
+    <script src="Scripts/anime.min.js"></script>
     <!-- Flickity JavaScript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="Scripts/ft.js"></script>
     <!-- Flickity CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/loading.css">
     <link rel="stylesheet" href="css/experimental/main.css">
     <link rel="stylesheet" href="css/experimental/layout.css">
     <link rel="stylesheet" href="css/hamburger.css">
     <title>Floral Tattoo</title>
   </head>
     <body>
+      <div id="dvLoading">
+        <div id="lineDrawing">
+          <svg class="heart-loader lines" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.05 124.97"><defs><style>.cls-1{fill:#ed1c24;}.cls-2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:6px;}</style></defs><title>flt-heart-red</title><path class="cls-1" d="M400.49,232.88c2,17-2,34.17-8.75,49.9-5.68,13.27-13.27,25.64-21.12,37.81-11.68-9.34-20.27-23.26-27.15-36.82-7.43-14.65-14-30.09-15.34-46.43a32.26,32.26,0,0,1,.62-10.87c3.19-12.12,18.92-19.13,30.24-13.49,8.36,4.17,13.08,13.47,14.14,22.66,0,.26.06.51.08.77a31.87,31.87,0,0,0-1.21,3.06c-2.54,7.56-2.6,15.7-1.83,23.62,2-8.78,3.92-17.75,3-26.68,2.83-6.31,7.64-11.84,14-14.54a10.17,10.17,0,0,1,5.19-1C397.65,221.57,399.9,227.73,400.49,232.88Z" transform="translate(-324.95 -208)"/><path class="cls-2" d="M373.21,236.41c2.83-6.31,7.64-11.84,14-14.54a10.17,10.17,0,0,1,5.19-1c5.21.67,7.46,6.83,8.05,12,2,17-2,34.17-8.75,49.9-5.68,13.27-13.27,25.64-21.12,37.81-1.44,2.24-2.9,4.48-4.35,6.71" transform="translate(-324.95 -208)"/><path class="cls-2" d="M373.21,236.41c.88,8.93-1.08,17.9-3,26.68-.77-7.92-.71-16.06,1.83-23.62A31.87,31.87,0,0,1,373.21,236.41Z" transform="translate(-324.95 -208)"/><path class="cls-2" d="M388.82,330.08a50.56,50.56,0,0,1-18.2-9.49c-11.68-9.34-20.27-23.26-27.15-36.82-7.43-14.65-14-30.09-15.34-46.43a32.26,32.26,0,0,1,.62-10.87c3.19-12.12,18.92-19.13,30.24-13.49,8.36,4.17,13.08,13.47,14.14,22.66,0,.26.06.51.08.77" transform="translate(-324.95 -208)"/></svg>
+          <div id="counter"> <input class="text-output" value="0"> </div>
+        </div>
+      </div>
       <header>
         <!--Hambuger Menu-->
         <div id="hamburger">
@@ -196,9 +205,8 @@
       <footer>
         <p>
           Handcrafted with love by the Smuggling Croissants.
-          <br>
-          Loading images courtesy of Mohamed Hassan
         </p>
       </footer>
+      <script src="Scripts/loading.js"></script>
     </body>
   </html>

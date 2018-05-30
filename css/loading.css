@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+
+#dvLoading{
+    background: #FC6D92;
+    color: white;
+    z-index: 1;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.heart-loader{
+  width: 400px;
+  margin-left:30%;
+  margin-top: 20%;
+  opacity: 0.6;
+}
+.text-output{
+  width: 200px;
+  border: none;
+  font-size: 6em;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 15%;
+  color: white;
+  background-color: #FC6D92;
+  font-weight: bolder;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+/*Tablet*/
+@media (min-width: 600px) {
+  .heart-loader{
+    width: 300px;
+    margin-left: 35%;
+  }
+  .text-output{
+    font-size: 7em;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1200px){
+  .heart-loader{
+    height: 450px;
+    margin-left: 35%;
+    margin-top: 0;
+  }
+  .text-output{
+    margin-top: 0;
+  }
+}
