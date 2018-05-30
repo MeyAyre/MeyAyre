@@ -1,3 +1,5 @@
+//Using AnimeJS
+
 var counter = anime({
   targets: '#counter input',
   value: 100,

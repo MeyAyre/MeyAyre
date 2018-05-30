@@ -9,17 +9,17 @@
     padding: 0;
 }
 .heart-loader{
-  width: 400px;
-  margin-left:30%;
+  height: 250px;
+  margin-left:25%;
   margin-top: 20%;
   opacity: 0.6;
 }
 .text-output{
   width: 200px;
   border: none;
-  font-size: 6em;
+  font-size: 4em;
   text-align: center;
-  margin-left: 40%;
+  margin-left: 25%;
   margin-top: 15%;
   color: white;
   background-color: #FC6D92;
@@ -35,6 +35,7 @@
   }
   .text-output{
     font-size: 7em;
+
   }
 }
 
@@ -42,10 +43,11 @@
 @media (min-width: 1200px){
   .heart-loader{
     height: 450px;
-    margin-left: 35%;
-    margin-top: 0;
+    margin-left: 37%;
+    margin-top: 4%;
   }
   .text-output{
     margin-top: 0;
+    margin-left: 42%;
   }
 }
