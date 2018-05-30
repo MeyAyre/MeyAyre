@@ -10,6 +10,7 @@ html{
   border: solid red thick;
   border-right: none;
   border-left: none;
+  display: none;
 }
 header{
   background-color: #FABBC9;
