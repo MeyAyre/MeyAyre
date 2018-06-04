@@ -6,6 +6,21 @@
   margin-top: 0;
   justify-content: space-evenly;
 }
+#tags{
+  padding: 2%;
+  background-color: inherit;
+}
+.tags{
+  border-radius: 25px;
+  background-color: #268708;
+  padding: 3%;
+  width: 30%;
+}
+.tags > a{
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
 .title{
   font-size: 60px;
   letter-spacing: 20px;
@@ -19,7 +34,10 @@
 .kids-header{
   background-color: #268708;
 }
-
+.experimental-header{
+  font-size: 40px;
+  letter-spacing: 5px;
+}
 .half{
   width: 50%;
 }
@@ -31,7 +49,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 550px) {
+@media (min-width:600px) {
   .title{
     font-size: 100px;
     letter-spacing: 30px;
