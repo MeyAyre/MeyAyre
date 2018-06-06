@@ -66,8 +66,12 @@ p{
   font-weight: 100;
 }
 
+.rotate-me{
+  transform: rotate(90deg);
+}
+
 /*Tablet Sizing*/
-@media (min-width: 550px){
+@media (min-width: 600px){
   h1{
     font-size: 80px;
     letter-spacing: 5px;
@@ -89,6 +93,9 @@ p{
   p{
     font-size: 1.875em;
   }
+  .rotate-me{
+    transform: none;
+  }
 }
 
 /*Desktop and Laptop Sizing*/
@@ -105,4 +112,5 @@ p{
   p{
     font-size: 1em;
   }
+
 }

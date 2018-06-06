@@ -4,10 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="Scripts/jquery-3.2.1.min.js"></script>
     <script src="Scripts/hamburger.js"></script>
+    <script src="Scripts/svg-injector.min.js"></script>
     <link rel="stylesheet" href="css/base.css">
     <title>Mei'lani Eyre, Web Developer, CS Educator, Student</title>
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <script>
+      // Elements to inject
+      var mySVGsToInject = document.querySelectorAll('img.inject-me');
+
+      // Do the injection
+      SVGInjector(mySVGsToInject);
+    </script>
     <!-- Header -->
     <header>
       <div id="hamburger">
@@ -63,20 +72,24 @@
     <section id="main-banner" class="container" role="banner">
       <div class="banner-item">
         <img srcset="Images/computer_icon-sm.png 75w, Images/computer_icon-md.png 86w, Images/computer_icon-lg.png 100w"
-          sizes="(max-width: 550px) 75px, (max-width: 1000px) 86px, (max-width: 1600px) 100px"
+          sizes="(max-width: 600px) 75px, (max-width: 1000px) 86px, (max-width: 1600px) 100px"
           src="Images/computer_icon-md.png"
           role="presentation" alt="">
         <h2 class="banner-item-text">Web Developer</h2>
       </div>
       <div class="banner-item">
         <img srcset="Images/ChildIcon-sm.png 75w, Images/ChildIcon-md.png 82w,Images/ChildIcon-lg.png 100w"
-          sizes="(max-width: 550px) 75px,(max-width: 1000px) 82px, (max-width: 1600px) 100px"
+          sizes="(max-width: 600px) 75px,(max-width: 1000px) 82px, (max-width: 1600px) 100px"
           src="Images/ChildIcon-md.png"
           role="presentation" alt="">
         <h2 class="banner-item-text">CS Educator</h2>
       </div>
       <div class="banner-item">
-        <img src="Images/DungeonGems/make-icon-md.png">
+        <img srcset="Images/DungeonGems/make-icon-sm.png 93w, Images/DungeonGems/make-icon-md.png 119w"
+          sizes="(max-width: 600px) 93px,(max-width: 1600px) 119px"
+          alt=""
+          src="Images/DungeonGems/make-icon-md.png"
+          role="presentation">
         <h2 class="banner-item-text">Student</h2>
       </div>
     </section>
@@ -90,9 +103,11 @@
       </h3>
       <div class="body-content">
         <h3>
-          <span class="icon-rocket"></span>I'm Mei.<span class="icon-power">
-          </span>
+          I'm Mei.
         </h3>
+        <img class="rotate-me" src="Images/arrow2.png" alt="" role="presentation">
+        <img id="animated"srcset="Images/Icon-md.png" alt="Rotating image of Mei'lani in cartoon form">
+        <p><em>(That's me!)</em></p>
         <br>
         <p class="body-text">
           You may know me from Girls Who Code, a Code.org video, seen me
@@ -101,18 +116,24 @@
         </p>
         <br>
         <p class="body-text">
-          I'm a queer woman <span class="icon-woman">
-          </span>  of color and student at Cascadia College. My specialties are accessible
+          I'm a queer woman of color and student at Cascadia College. My specialties are accessible
           /inclusive design, responsive design, and CS education.
           I've worked with a few companies in these disciplines, including
-          Girls Who Code, Code.org, and Microsoft. I also really love Target <span class="icon-target"></span>
-          and I have my own folk punk band. <span class="icon-music">
-          </span>
+          Girls Who Code, Code.org, and Microsoft. I also really love Target 
+          and I have my own folk punk band.
         </p>
       </div>
     </section>
     <!--Footer -->
-    <footer>
+    <footer class="container">
+      <p id="social-media">Follow me on social media!
+        <br>
+        <span aria-hidden="true" data-icon="&#xe001;" class="icon-facebook"></span>
+        <span aria-hidden="true" data-icon="&#xe001;" class="icon-youtube"></span>
+        <span aria-hidden="true" data-icon="&#xe001;" class="icon-twitter"></span>
+        <span aria-hidden="true" data-icon="&#xe001;" class="icon-tumblr2"></span>
+        <span aria-hidden="true" data-icon="&#xe001;" class="icon-linkedin"></span>
+      </p>
     </footer>
   </body>
 </html>

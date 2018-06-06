@@ -3,6 +3,7 @@
 @import "coloring.css";
 @import "menu.css";
 @import "hamburger.css";
+@import "../style.css";
 @import url('https://fonts.googleapis.com/css?family=Baloo');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 /*@import url('https://fonts.googleapis.com/css?family=Lato');*/

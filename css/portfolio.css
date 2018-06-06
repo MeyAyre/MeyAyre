@@ -16,11 +16,12 @@
   padding: 3%;
   width: 30%;
 }
-.tags > a{
+.tags > a {
   color: white;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bold;
 }
+
 .title{
   font-size: 60px;
   letter-spacing: 20px;
@@ -54,5 +55,8 @@
     font-size: 100px;
     letter-spacing: 30px;
     text-align: right;
+  }
+  .tags > a{
+    font-size: 2em;
   }
 }

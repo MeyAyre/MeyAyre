@@ -27,7 +27,23 @@ header{
 }
 .body-text{
   text-align: left;
+
 }
 .container{
   display: flex;
 }
+
+.inject-me{
+  overflow: visible;
+}
+#social-media{
+  margin: 0 auto;
+  padding: 2%;
+}
+
+#animated{
+  -webkit-animation:spin 10s linear infinite;
+ -moz-animation:spin 10s linear infinite;
+ animation:spin 50s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
