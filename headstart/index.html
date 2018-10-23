@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--Mei'lani Eyre -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name=description content="Head Space Prototype jQuery Mobile">
+    <meta name="author" content="Enter your Name">
+    <title>Head Start</title>
+    <!-- ADD the three CDN snippets from jquerymobile.com Downloads -->
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="svg-injector.min.js"></script>
+    <script>
+  // Elements to inject
+  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+
+  // Do the injection
+  SVGInjector(mySVGsToInject);
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img.fullscreen{width:100%;}
+        img.thumbnail{width:50%;}
+        .wide{
+          width: 50%;
+          text-align: center;
+          padding-top: 8%;
+          padding-bottom: 4%;
+        }
+        .ui-btn-icon-right:after{
+          display: none;
+        }
+        .ui-page-theme-a, .ui-btn{
+
+        }
+        .option{
+          font-size: 1.7em !important;
+          text-shadow: none !important;
+          color: white !important;
+        }
+        .link{
+          text-decoration: none;
+        }
+        .ui-grid-b{
+          width: 100%;
+          margin: 0 auto;
+        }
+        header{
+          text-align: center;
+          background-color: #FF006B !important;
+        }
+        .header-logo{
+          width: 100%;
+          padding: 0;
+        }
+        .header-icons{
+          background-color: #FF006B !important;
+          border: none;
+        }
+        .header-text{
+          text-shadow: none;
+        }
+        footer{
+          margin-top: 5%;
+        }
+        footer, .navigation-footer{
+          background-color: #FF006B !important;
+          border:none;
+        }
+        .navigation-footer{
+          font-family: 'Palanquin Dark', sans-serif;
+          font-size: 1.70em !important;
+          text-shadow: none !important;
+          color:white !important;
+        }
+        li{
+          padding: 4% !important;
+        }
+        .title{
+          font-size: 2em;
+          text-align: center;
+        }
+        .goal-type{
+          font-family: 'Palanquin Dark', sans-serif;
+          text-align: center;
+          padding: 5%;
+          border-radius: 2%;
+          font-size: 1.25em;
+          background-color: white;
+        }
+        .head{
+          border-bottom: thick black solid;
+        }
+        .smaller{
+          width: 75%;
+          height: 75%;
+          margin-left: 65%;
+        }
+        #home, .mesh_background{
+          background-color: #FF006B !important;
+          border: none !important;
+        }
+        #home_options{
+          margin-top: 30%;
+        }
+        #goals, #clean{
+          background-color: rgba(37,182,214, 0.27);
+        }
+        h1{
+          font-family: 'Palanquin Dark', sans-serif;
+        }
+        .talking{
+          border-color: #faba00 !important;
+          background-color: #faba00 !important;
+        }
+        #right-side{
+          background-color: #25b6d6;
+          padding-right: 2%;
+        }
+        #goal-icon{
+          width: 13%;
+          margin-left: 15%;
+          position: absolute;;
+        }
+        #goal-text{
+          margin-left: 10%;
+        }
+        #journal-icon{
+          position: absolute;
+          margin-left: 15%;
+          bottom: 27%;
+        }
+        #my-goals-content{
+          text-shadow: none;
+        }
+        .edit_bar{
+          width: 50%;
+          margin-left: 60%;
+          padding: 5%;
+        }
+        .bubble-style{
+          border-radius: 7% !important;
+          font-family: 'Palanquin Dark', sans-serif;
+          text-align: center !important;
+          font-size: 1.5em !important;
+        }
+        #clean-content{
+          border-radius: 3%;
+          background-color: white;
+          padding: 5%;
+          font-size: 1.15em;
+        }
+        #selected{
+          background-color: grey;
+        }
+    </style>
+</head>
+<body>
+
+<!-- home page -->
+<div data-role="page" id="home">
+<header>
+  <br>
+  <img class="inject-me" src="UI_Stuff/logo.svg">
+</header>
+<article data-role="content" id="home_options">
+    <ul data-role="listview">
+        <li>
+            <a  class="mesh_background" href="#goals">
+            <h1 class="option"><span id="goal-text">My Goals</span> <img class="inject-me" id="goal-icon" src="UI_Stuff/goal.svg"></h1>
+            </a>
+        </li>
+        <li class="talking">
+            <a class="talking" href="#talking-points">
+            <h1 class="option talking" id="talking-option">Talking Points <img class="inject-me" id="journal-icon" src="UI_Stuff/journal.svg"></h1>
+            </a>
+        </li>
+    </ul>
+    <div class="ui-block-a wide mesh_background">
+      <a class="link" href="#progress">
+        <img class="inject-me" src="UI_Stuff/progress_check.svg">
+        <h1 class="option">Progress</h1>
+      </a>
+    </div>
+    <div class="ui-block-b wide" id="right-side">
+        <a class="link" href="#view" >
+          <img class="inject-me" src="UI_Stuff/graph.svg">
+        <h1 class="option">View</h1>
+        </a>
+    </div>
+</article>
+</div> <!-- home page -->
+
+<!-- goals page -->
+<div data-role="page" id="goals">
+<header data-role="header">
+  <nav data-role="navbar">
+      <ul>
+        <li><a class="header-icons" href="#home"><img class="inject-me" src="UI_Stuff/arrow-left.svg"></a></li>
+        <li><img class="inject-me header-logo" src="UI_Stuff/logo.svg"></li>
+        <li><a class="header-icons" href="#info"><img class="inject-me" src="UI_Stuff/hamburger.svg"></a></li>
+      </ul>
+  </nav>
+</header>
+
+<article data-role="content" id="my-goals-content">
+    <!-- Review http://demos.jquerymobile.com/1.4.5/grids/#Three-columngrids -->
+    <div class="head">
+      <h1 class="title">My Goals</h1>
+      <ul class="ui-grid-a">
+        <li class="ui-block-a"><h2 class="goal-type">Long Term</h2></li>
+        <li class="ui-block-b"><h2 class="goal-type" id="selected">Short Term </h2></li>
+      </ul>
+    </div>
+    <div class="edit_bar">
+      <img class="inject-me" src="UI_Stuff/toolbar.svg">
+    </div>
+    <ul data-role="listview">
+      <li>
+        <a class="bubble-style" href="#clean">
+          Clean More
+        </a>
+      </li>
+      <li >
+        <a class="bubble-style">
+          Shower More Often
+        </a>
+      </li>
+      <li >
+        <a class="bubble-style">
+          Eat Consistently
+        </a>
+      </li>
+    </ul>
+</article>
+<footer data-role="footer">
+    <nav data-role="navbar">
+        <ul>
+		        <li><a class="navigation-footer" href="#info">Next</a></li>
+        </ul>
+    </nav>
+</footer>
+</div> <!-- photo page -->
+
+<!-- info page -->
+<div data-role="page" id="clean">
+  <header data-role="header">
+    <nav data-role="navbar">
+        <ul>
+          <li><a class="header-icons" href="#home"><img class="inject-me" src="UI_Stuff/arrow-left.svg"></a></li>
+          <li><img class="inject-me header-logo" src="UI_Stuff/logo.svg"></li>
+          <li><a class="header-icons" href="#info"><img class="inject-me" src="UI_Stuff/hamburger.svg"></a></li>
+        </ul>
+    </nav>
+  </header>
+
+<article data-role="content" id="clean-more-page">
+  <div class="smaller">
+    <img class="inject-me" src="UI_Stuff/toolbar.svg">
+  </div>
+    <h1 class="title">Clean More</h1>
+    <h3>Sometime Next Month</h3>
+    <p id="clean-content">My depression has made it hard to keep my home clean and sanitary for me. I need to start cleaning up my living quarters more frequently.</p>
+    <div>
+      <h2>Getting There</h2>
+      <form>
+        <label class="checkboxes">
+            <input type="checkbox" name="checkbox-0 ">Make Bed
+        </label>
+        <label class="checkboxes">
+            <input type="checkbox" name="checkbox-1 ">Put Dishes Away
+        </label>
+      </form>
+    </div>
+</article>
+<footer data-role="footer">
+    <nav data-role="navbar">
+          <ul>
+  		<li><a class="navigation-footer" href="#home">Back</a></li>
+		<li><a class="navigation-footer" href="#info">Next</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+</body>
+</html>
